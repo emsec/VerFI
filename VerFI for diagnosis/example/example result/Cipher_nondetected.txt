@@ -1,0 +1,6 @@
+cycle:  10   cell: Red_ToCheckInst_LFInst_5_LFInst_2_U1  hierarchy: Red_ToCheckInst/LFInst_5/LFInst_2/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_11_LFInst_0_U2  hierarchy: Red_PlaintextInst/LFInst_11/LFInst_0/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_60_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_60/MUXInst_4/U1
+cycle:  11   cell: FSMSignals_doneInst_U2  hierarchy: FSMSignals_doneInst/U2
+[63:0] Output = 64'h1000000000000000
+

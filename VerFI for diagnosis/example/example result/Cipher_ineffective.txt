@@ -1,0 +1,355 @@
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_20_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_20/MUXInst_0_0/U1
+cycle:  11   cell: OutputMUX_U10  hierarchy: OutputMUX/U10
+cycle:  10   cell: Red_K1Inst_LFInst_3_LFInst_0_U1  hierarchy: Red_K1Inst/LFInst_3/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_17_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_17/MUXInst_1/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_20_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_20/MUXInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_33_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_33/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_63_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_63/MUXInst_1/U1
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_24_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_24/MUXInst_0_1/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_7_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_7/MUXInst_2/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_1_LFInst_1_U3  hierarchy: Red_SubCellInst/LFInst_1/LFInst_1/U3
+cycle:  11   cell: FSMRegInst_s_current_state_reg_6_  hierarchy: FSMRegInst/s_current_state_reg[6]
+cycle:  11   cell: FSMMUX_MUXInst_6_U1  hierarchy: FSMMUX/MUXInst_6/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_31_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_31/MUXInst_3/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_42_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_42/MUXInst_3/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_10_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_10/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_33_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_33/MUXInst_4/U1
+
+cycle:  10   cell: Red_K1Inst_LFInst_7_LFInst_2_U2  hierarchy: Red_K1Inst/LFInst_7/LFInst_2/U2
+cycle:  10   cell: OutputMUX_MUX2to1Inst_56_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_56/MUXInst_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_27_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_27/MUXInst_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_23_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_23/MUXInst_4/U1
+
+cycle:  10   cell: Red_PlaintextInst_LFInst_1_LFInst_2_U2  hierarchy: Red_PlaintextInst/LFInst_1/LFInst_2/U2
+cycle:  10   cell: Red_K1Inst_LFInst_3_LFInst_1_U1  hierarchy: Red_K1Inst/LFInst_3/LFInst_1/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_2_LFInst_2_U5  hierarchy: Red_SubCellInst/LFInst_2/LFInst_2/U5
+cycle:  11   cell: OutputMUX_MUX2to1Inst_44_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_44/MUXInst_4/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_35_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_35/MUXInst_4/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_43_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_43/MUXInst_0_0/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_7_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_7/LFInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_61_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_61/MUXInst_2/U1
+
+cycle:  11   cell: Red_PlaintextInst_LFInst_4_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_4/LFInst_1/U1
+cycle:  11   cell: Red_K0Inst_LFInst_8_LFInst_0_U1  hierarchy: Red_K0Inst/LFInst_8/LFInst_0/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_9_LFInst_2_U2  hierarchy: Red_PlaintextInst/LFInst_9/LFInst_2/U2
+cycle:  10   cell: Red_SubCellInst_LFInst_7_LFInst_1_U1  hierarchy: Red_SubCellInst/LFInst_7/LFInst_1/U1
+
+cycle:  11   cell: Red_SubCellInst_LFInst_15_LFInst_1_U1  hierarchy: Red_SubCellInst/LFInst_15/LFInst_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_22_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_22/MUXInst_1/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_7_LFInst_1_U2  hierarchy: Red_SubCellInst/LFInst_7/LFInst_1/U2
+cycle:  10   cell: Red_PlaintextInst_LFInst_6_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_1/U1
+
+cycle:  11   cell: Red_SubCellInst_LFInst_2_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_2/LFInst_2/U2
+cycle:  11   cell: Red_PlaintextInst_LFInst_6_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_11_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_11/MUXInst_0/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_10_LFInst_1_U1  hierarchy: Red_SubCellInst/LFInst_10/LFInst_1/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_28_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_28/MUXInst_4/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_32_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_32/MUXInst_2/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_7_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_7/LFInst_2/U2
+cycle:  11   cell: Red_PlaintextInst_LFInst_4_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_4/LFInst_1/U2
+
+cycle:  10   cell: Red_SubCellInst_LFInst_7_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_7/LFInst_2/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_13_LFInst_2_U3  hierarchy: Red_SubCellInst/LFInst_13/LFInst_2/U3
+cycle:  11   cell: OutputMUX_MUX2to1Inst_28_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_28/MUXInst_3/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_3_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_3/LFInst_1/U1
+
+cycle:  10   cell: Red_K1Inst_LFInst_1_LFInst_1_U2  hierarchy: Red_K1Inst/LFInst_1/LFInst_1/U2
+cycle:  10   cell: Red_SubCellInst_LFInst_15_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_15/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_33_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_33/MUXInst_1/U1
+cycle:  11   cell: SubCellInst_LFInst_9_LFInst_2_U1  hierarchy: SubCellInst/LFInst_9/LFInst_2/U1
+
+cycle:  10   cell: Red_PlaintextInst_LFInst_9_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_9/LFInst_1/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_4_LFInst_2_U4  hierarchy: Red_SubCellInst/LFInst_4/LFInst_2/U4
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_11_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_11/MUXInst_0_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_9_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_9/MUXInst_1/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_50_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_50/MUXInst_1/U1
+cycle:  11   cell: Red_K0Inst_LFInst_14_LFInst_1_U2  hierarchy: Red_K0Inst/LFInst_14/LFInst_1/U2
+cycle:  10   cell: Red_PlaintextInst_LFInst_9_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_9/LFInst_1/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_2_LFInst_0_U2  hierarchy: Red_PlaintextInst/LFInst_2/LFInst_0/U2
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_12_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_12/MUXInst_1/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_4_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_4/MUXInst_0_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_31_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_31/MUXInst_0/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_6_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_2/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_36_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_36/MUXInst_4/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_21_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_21/MUXInst_1/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_15_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_15/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_31_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_31/MUXInst_0/U1
+
+cycle:  10   cell: Red_SubCellInst_LFInst_5_LFInst_2_U4  hierarchy: Red_SubCellInst/LFInst_5/LFInst_2/U4
+cycle:  10   cell: Red_SubCellInst_LFInst_4_LFInst_1_U3  hierarchy: Red_SubCellInst/LFInst_4/LFInst_1/U3
+cycle:  11   cell: OutputMUX_MUX2to1Inst_34_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_34/MUXInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_60_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_60/MUXInst_2/U1
+
+cycle:  10   cell: Red_K1Inst_LFInst_3_LFInst_2_U1  hierarchy: Red_K1Inst/LFInst_3/LFInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_20_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_20/MUXInst_3/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_58_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_58/MUXInst_2/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_2_LFInst_2_U6  hierarchy: Red_SubCellInst/LFInst_2/LFInst_2/U6
+
+cycle:  10   cell: Red_PlaintextInst_LFInst_7_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_7/LFInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_7_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_7/MUXInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_19_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_19/MUXInst_2/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_4_LFInst_1_U3  hierarchy: Red_SubCellInst/LFInst_4/LFInst_1/U3
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_11_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_11/MUXInst_4/U1
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_28_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_28/MUXInst_0_1/U1
+cycle:  11   cell: SubCellInst_LFInst_2_LFInst_1_U2  hierarchy: SubCellInst/LFInst_2/LFInst_1/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_35_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_35/MUXInst_3/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_36_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_36/MUXInst_3/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_8_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_8/LFInst_2/U1
+cycle:  10   cell: SubCellInst_LFInst_12_LFInst_1_U2  hierarchy: SubCellInst/LFInst_12/LFInst_1/U2
+cycle:  10   cell: Red_K1Inst_LFInst_15_LFInst_2_U2  hierarchy: Red_K1Inst/LFInst_15/LFInst_2/U2
+
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_19_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_19/MUXInst_0_0/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_18_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_18/MUXInst_0_0/U1
+cycle:  10   cell: Red_K1Inst_LFInst_8_LFInst_0_U1  hierarchy: Red_K1Inst/LFInst_8/LFInst_0/U1
+cycle:  10   cell: Red_K1Inst_LFInst_0_LFInst_1_U2  hierarchy: Red_K1Inst/LFInst_0/LFInst_1/U2
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_41_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_41/MUXInst_4/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_9_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_9/LFInst_1/U2
+cycle:  11   cell: Red_SubCellInst_LFInst_12_LFInst_2_U6  hierarchy: Red_SubCellInst/LFInst_12/LFInst_2/U6
+cycle:  11   cell: OutputMUX_MUX2to1Inst_16_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_16/MUXInst_0/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_56_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_56/MUXInst_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_19_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_19/MUXInst_0/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_1_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_1/LFInst_2/U2
+cycle:  10   cell: OutputMUX_MUX2to1Inst_44_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_44/MUXInst_2/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_44_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_44/MUXInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_18_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_18/MUXInst_4/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_45_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_45/MUXInst_0_0/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_7_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_7/LFInst_1/U2
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_45_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_45/MUXInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_47_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_47/MUXInst_4/U1
+cycle:  11   cell: Red_K0Inst_LFInst_5_LFInst_0_U1  hierarchy: Red_K0Inst/LFInst_5/LFInst_0/U1
+cycle:  11   cell: SubCellInst_LFInst_4_LFInst_1_U2  hierarchy: SubCellInst/LFInst_4/LFInst_1/U2
+
+cycle:  11   cell: Red_PlaintextInst_LFInst_13_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_13/LFInst_1/U2
+cycle:  11   cell: Red_SubCellInst_LFInst_11_LFInst_1_U3  hierarchy: Red_SubCellInst/LFInst_11/LFInst_1/U3
+cycle:  10   cell: Red_PlaintextInst_LFInst_5_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_5/LFInst_1/U2
+cycle:  10   cell: Red_PlaintextInst_LFInst_7_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_7/LFInst_1/U1
+
+cycle:  10   cell: Red_K1Inst_LFInst_4_LFInst_1_U1  hierarchy: Red_K1Inst/LFInst_4/LFInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_29_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_29/MUXInst_4/U1
+cycle:  11   cell: Red_MCInst_XOR_r0_Inst_0_U1  hierarchy: Red_MCInst/XOR_r0_Inst_0/U1
+cycle:  11   cell: Red_InputMUX_MUXInst_36_U1  hierarchy: Red_InputMUX/MUXInst_36/U1
+
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_43_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_43/MUXInst_0_1/U1
+cycle:  10   cell: SubCellInst_LFInst_7_LFInst_1_U1  hierarchy: SubCellInst/LFInst_7/LFInst_1/U1
+cycle:  11   cell: Red_K0Inst_LFInst_8_LFInst_0_U2  hierarchy: Red_K0Inst/LFInst_8/LFInst_0/U2
+cycle:  11   cell: Red_SubCellInst_LFInst_1_LFInst_1_U3  hierarchy: Red_SubCellInst/LFInst_1/LFInst_1/U3
+
+cycle:  10   cell: Red_PlaintextInst_LFInst_0_LFInst_0_U2  hierarchy: Red_PlaintextInst/LFInst_0/LFInst_0/U2
+cycle:  10   cell: Red_K1Inst_LFInst_13_LFInst_2_U1  hierarchy: Red_K1Inst/LFInst_13/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_33_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_33/MUXInst_1/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_11_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_11/LFInst_2/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_10_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_10/MUXInst_3/U1
+cycle:  11   cell: Red_K0Inst_LFInst_2_LFInst_0_U1  hierarchy: Red_K0Inst/LFInst_2/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_58_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_58/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_0_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_0/MUXInst_2/U1
+
+cycle:  10   cell: Red_SubCellInst_LFInst_8_LFInst_1_U4  hierarchy: Red_SubCellInst/LFInst_8/LFInst_1/U4
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_35_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_35/MUXInst_0_1/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_13_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_13/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_32_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_32/MUXInst_1/U1
+
+cycle:  11   cell: Red_PlaintextInst_LFInst_6_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_1/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_17_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_17/MUXInst_0_0/U1
+cycle:  10   cell: Red_K1Inst_LFInst_13_LFInst_1_U2  hierarchy: Red_K1Inst/LFInst_13/LFInst_1/U2
+cycle:  10   cell: OutputMUX_MUX2to1Inst_19_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_19/MUXInst_2/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_20_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_20/MUXInst_4/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_39_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_39/MUXInst_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_57_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_57/MUXInst_3/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_7_LFInst_1_U2  hierarchy: Red_SubCellInst/LFInst_7/LFInst_1/U2
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_4_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_4/MUXInst_2/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_8_LFInst_2_U4  hierarchy: Red_SubCellInst/LFInst_8/LFInst_2/U4
+cycle:  10   cell: Red_K1Inst_LFInst_3_LFInst_0_U1  hierarchy: Red_K1Inst/LFInst_3/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_23_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_23/MUXInst_3/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_7_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_7/MUXInst_2/U1
+cycle:  10   cell: Red_K1Inst_LFInst_6_LFInst_2_U2  hierarchy: Red_K1Inst/LFInst_6/LFInst_2/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_55_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_55/MUXInst_1/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_21_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_21/MUXInst_0_0/U1
+
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_46_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_46/MUXInst_0_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_56_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_56/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_27_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_27/MUXInst_0/U1
+cycle:  10   cell: Red_K1Inst_LFInst_2_LFInst_0_U2  hierarchy: Red_K1Inst/LFInst_2/LFInst_0/U2
+
+cycle:  10   cell: Red_K1Inst_LFInst_5_LFInst_0_U1  hierarchy: Red_K1Inst/LFInst_5/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_25_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_25/MUXInst_4/U1
+cycle:  11   cell: Red_K0Inst_LFInst_8_LFInst_2_U2  hierarchy: Red_K0Inst/LFInst_8/LFInst_2/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_33_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_33/MUXInst_3/U1
+
+cycle:  11   cell: Red_PlaintextInst_LFInst_15_LFInst_0_U1  hierarchy: Red_PlaintextInst/LFInst_15/LFInst_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_54_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_54/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_31_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_31/MUXInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_6_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_6/MUXInst_1/U1
+
+cycle:  10   cell: Red_SubCellInst_LFInst_4_LFInst_2_U6  hierarchy: Red_SubCellInst/LFInst_4/LFInst_2/U6
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_28_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_28/MUXInst_0_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_48_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_48/MUXInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_50_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_50/MUXInst_4/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_57_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_57/MUXInst_4/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_63_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_63/MUXInst_2/U1
+cycle:  10   cell: Red_FSMSignals_doneInst_Red_FSMSignals_doneBitInst_0_U2  hierarchy: Red_FSMSignals_doneInst/Red_FSMSignals_doneBitInst_0/U2
+cycle:  10   cell: OutputMUX_MUX2to1Inst_45_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_45/MUXInst_4/U1
+
+cycle:  11   cell: Red_PlaintextInst_LFInst_12_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_12/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_18_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_18/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_40_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_40/MUXInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_21_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_21/MUXInst_2/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_48_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_48/MUXInst_0/U1
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_27_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_27/MUXInst_0_1/U1
+cycle:  11   cell: Red_K0Inst_LFInst_14_LFInst_1_U1  hierarchy: Red_K0Inst/LFInst_14/LFInst_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_56_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_56/MUXInst_1/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_1_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_1/MUXInst_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_50_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_50/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_14_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_14/MUXInst_3/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_44_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_44/MUXInst_4/U1
+
+cycle:  11   cell: Red_K0Inst_LFInst_15_LFInst_1_U2  hierarchy: Red_K0Inst/LFInst_15/LFInst_1/U2
+cycle:  11   cell: Red_K0Inst_LFInst_5_LFInst_2_U2  hierarchy: Red_K0Inst/LFInst_5/LFInst_2/U2
+cycle:  10   cell: OutputMUX_MUX2to1Inst_12_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_12/MUXInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_11_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_11/MUXInst_2/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_12_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_12/MUXInst_3/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_8_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_8/LFInst_1/U1
+cycle:  10   cell: SubCellInst_LFInst_9_LFInst_1_U1  hierarchy: SubCellInst/LFInst_9/LFInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_49_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_49/MUXInst_3/U1
+
+cycle:  10   cell: Red_SubCellInst_LFInst_14_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_14/LFInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_30_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_30/MUXInst_4/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_38_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_38/MUXInst_0/U1
+cycle:  11   cell: Red_K0Inst_LFInst_12_LFInst_2_U1  hierarchy: Red_K0Inst/LFInst_12/LFInst_2/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_63_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_63/MUXInst_3/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_3_LFInst_0_U1  hierarchy: Red_PlaintextInst/LFInst_3/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_33_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_33/MUXInst_4/U1
+cycle:  10   cell: Red_K1Inst_LFInst_13_LFInst_0_U2  hierarchy: Red_K1Inst/LFInst_13/LFInst_0/U2
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_36_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_36/MUXInst_3/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_8_LFInst_0_U2  hierarchy: Red_PlaintextInst/LFInst_8/LFInst_0/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_56_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_56/MUXInst_2/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_7_LFInst_0_U1  hierarchy: Red_SubCellInst/LFInst_7/LFInst_0/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_26_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_26/MUXInst_1/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_12_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_12/LFInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_3_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_3/MUXInst_3/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_38_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_38/MUXInst_0/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_46_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_46/MUXInst_0/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_16_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_16/MUXInst_0_0/U1
+cycle:  10   cell: Red_K1Inst_LFInst_14_LFInst_2_U1  hierarchy: Red_K1Inst/LFInst_14/LFInst_2/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_6_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_6/LFInst_2/U2
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_53_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_53/MUXInst_1/U1
+cycle:  11   cell: SubCellInst_LFInst_10_LFInst_1_U2  hierarchy: SubCellInst/LFInst_10/LFInst_1/U2
+cycle:  10   cell: Red_K1Inst_LFInst_1_LFInst_0_U2  hierarchy: Red_K1Inst/LFInst_1/LFInst_0/U2
+cycle:  10   cell: Red_FSMSignals_doneInst_Red_FSMSignals_doneBitInst_0_U2  hierarchy: Red_FSMSignals_doneInst/Red_FSMSignals_doneBitInst_0/U2
+
+cycle:  10   cell: Red_K1Inst_LFInst_6_LFInst_1_U1  hierarchy: Red_K1Inst/LFInst_6/LFInst_1/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_8_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_8/LFInst_2/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_5_LFInst_0_U1  hierarchy: Red_PlaintextInst/LFInst_5/LFInst_0/U1
+cycle:  11   cell: Red_K0Inst_LFInst_3_LFInst_1_U1  hierarchy: Red_K0Inst/LFInst_3/LFInst_1/U1
+
+cycle:  10   cell: SubCellInst_LFInst_9_LFInst_0_U1  hierarchy: SubCellInst/LFInst_9/LFInst_0/U1
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_45_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_45/MUXInst_0_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_7_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_7/MUXInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_42_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_42/MUXInst_2/U1
+
+cycle:  11   cell: Red_SubCellInst_LFInst_5_LFInst_1_U1  hierarchy: Red_SubCellInst/LFInst_5/LFInst_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_12_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_12/MUXInst_4/U1
+cycle:  10   cell: Red_K1Inst_LFInst_8_LFInst_0_U1  hierarchy: Red_K1Inst/LFInst_8/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_55_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_55/MUXInst_1/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_23_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_23/MUXInst_2/U1
+cycle:  10   cell: SubCellInst_LFInst_2_LFInst_1_U1  hierarchy: SubCellInst/LFInst_2/LFInst_1/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_47_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_47/MUXInst_0_1/U1
+cycle:  11   cell: Red_K1Inst_LFInst_15_LFInst_2_U1  hierarchy: Red_K1Inst/LFInst_15/LFInst_2/U1
+
+cycle:  11   cell: OutputMUX_U10  hierarchy: OutputMUX/U10
+cycle:  11   cell: Red_PlaintextInst_LFInst_12_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_12/LFInst_1/U2
+cycle:  10   cell: Red_K1Inst_LFInst_12_LFInst_0_U2  hierarchy: Red_K1Inst/LFInst_12/LFInst_0/U2
+cycle:  10   cell: Red_PlaintextInst_LFInst_12_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_12/LFInst_1/U1
+
+cycle:  10   cell: Red_K1Inst_LFInst_10_LFInst_0_U1  hierarchy: Red_K1Inst/LFInst_10/LFInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_19_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_19/MUXInst_4/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_60_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_60/MUXInst_4/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_53_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_53/MUXInst_1/U1
+
+cycle:  11   cell: SubCellInst_LFInst_9_LFInst_2_U1  hierarchy: SubCellInst/LFInst_9/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_38_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_38/MUXInst_1/U1
+cycle:  10   cell: Red_K1Inst_LFInst_9_LFInst_2_U1  hierarchy: Red_K1Inst/LFInst_9/LFInst_2/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_7_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_7/LFInst_2/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_19_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_19/MUXInst_4/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_6_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_6/LFInst_2/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_1_LFInst_2_U2  hierarchy: Red_PlaintextInst/LFInst_1/LFInst_2/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_53_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_53/MUXInst_0/U1
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_41_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_41/MUXInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_28_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_28/MUXInst_2/U1
+cycle:  11   cell: Red_KeyMUX_MUX2to1Inst_31_MUXInst_0_0_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_31/MUXInst_0_0/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_49_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_49/MUXInst_0/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_6_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_6/MUXInst_2/U1
+cycle:  11   cell: Red_SubCellInst_LFInst_7_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_7/LFInst_2/U2
+cycle:  10   cell: OutputMUX_MUX2to1Inst_52_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_52/MUXInst_1/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_4_LFInst_0_U1  hierarchy: Red_PlaintextInst/LFInst_4/LFInst_0/U1
+
+cycle:  11   cell: Red_SubCellInst_LFInst_3_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_3/LFInst_2/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_26_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_26/MUXInst_2/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_15_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_15/LFInst_1/U1
+cycle:  10   cell: OutputMUX_U6  hierarchy: OutputMUX/U6
+
+cycle:  11   cell: Red_SubCellInst_LFInst_8_LFInst_1_U1  hierarchy: Red_SubCellInst/LFInst_8/LFInst_1/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_9_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_9/MUXInst_0/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_9_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_9/MUXInst_1/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_50_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_50/MUXInst_2/U1
+
+cycle:  11   cell: Red_PlaintextInst_LFInst_15_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_15/LFInst_2/U1
+cycle:  11   cell: OutputMUX_U11  hierarchy: OutputMUX/U11
+cycle:  10   cell: Red_PlaintextInst_LFInst_0_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_0/LFInst_1/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_1_LFInst_2_U2  hierarchy: Red_SubCellInst/LFInst_1/LFInst_2/U2
+
+cycle:  10   cell: Red_KeyMUX_MUX2to1Inst_31_MUXInst_0_1_U1  hierarchy: Red_KeyMUX/MUX2to1Inst_31/MUXInst_0_1/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_6_LFInst_0_U1  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_0/U1
+cycle:  11   cell: OutputMUX_U4  hierarchy: OutputMUX/U4
+cycle:  11   cell: Red_PlaintextInst_LFInst_6_LFInst_0_U2  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_0/U2
+
+cycle:  10   cell: OutputMUX_MUX2to1Inst_9_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_9/MUXInst_0/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_15_LFInst_2_U6  hierarchy: Red_SubCellInst/LFInst_15/LFInst_2/U6
+cycle:  11   cell: Red_PlaintextInst_LFInst_6_LFInst_2_U2  hierarchy: Red_PlaintextInst/LFInst_6/LFInst_2/U2
+cycle:  11   cell: OutputMUX_MUX2to1Inst_55_MUXInst_2_U1  hierarchy: OutputMUX/MUX2to1Inst_55/MUXInst_2/U1
+
+cycle:  11   cell: OutputMUX_MUX2to1Inst_39_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_39/MUXInst_4/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_32_MUXInst_3_U1  hierarchy: OutputMUX/MUX2to1Inst_32/MUXInst_3/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_0_LFInst_2_U1  hierarchy: Red_PlaintextInst/LFInst_0/LFInst_2/U1
+cycle:  10   cell: Red_PlaintextInst_LFInst_10_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_10/LFInst_1/U2
+
+cycle:  10   cell: Red_SubCellInst_LFInst_3_LFInst_1_U3  hierarchy: Red_SubCellInst/LFInst_3/LFInst_1/U3
+cycle:  10   cell: OutputMUX_MUX2to1Inst_47_MUXInst_4_U1  hierarchy: OutputMUX/MUX2to1Inst_47/MUXInst_4/U1
+cycle:  11   cell: Red_PlaintextInst_LFInst_5_LFInst_1_U2  hierarchy: Red_PlaintextInst/LFInst_5/LFInst_1/U2
+cycle:  11   cell: Red_PlaintextInst_LFInst_3_LFInst_1_U1  hierarchy: Red_PlaintextInst/LFInst_3/LFInst_1/U1
+
+cycle:  11   cell: Red_K0Inst_LFInst_7_LFInst_2_U1  hierarchy: Red_K0Inst/LFInst_7/LFInst_2/U1
+cycle:  11   cell: OutputMUX_MUX2to1Inst_62_MUXInst_1_U1  hierarchy: OutputMUX/MUX2to1Inst_62/MUXInst_1/U1
+cycle:  10   cell: Red_SubCellInst_LFInst_9_LFInst_2_U1  hierarchy: Red_SubCellInst/LFInst_9/LFInst_2/U1
+cycle:  10   cell: OutputMUX_MUX2to1Inst_2_MUXInst_0_U1  hierarchy: OutputMUX/MUX2to1Inst_2/MUXInst_0/U1
+

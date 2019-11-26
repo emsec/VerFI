@@ -1,0 +1,536 @@
+ 
+****************************************
+Report : cell
+Design : Cipher
+Version: E-2010.12-SP2
+Date   : Mon Oct 21 07:34:37 2019
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+AddKeyConstXOR/XORInst_0_0/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_0_0/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_0_1/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_0_1/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_0_2/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_0_2/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_0_3/U1 XOR2_X1     NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_0/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_0/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_1/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_1/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_2/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_2/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_3/U1 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyConstXOR/XORInst_1_3/U2 XNOR2_X1    NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_0_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_0_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_0_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_0_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_1_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_1_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_1_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_1_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_2_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_2_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_2_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_2_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_3_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_3_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_3_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR1/XORInst_3_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_0_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_0_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_0_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_0_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_1_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_1_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_1_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_1_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_2_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_2_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_2_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_2_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_3_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_3_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_3_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_3_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_4_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_4_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_4_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_4_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_5_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_5_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_5_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_5_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_6_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_6_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_6_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_6_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_7_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_7_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_7_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_7_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_8_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_8_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_8_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_8_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_9_0/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_9_1/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_9_2/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+AddKeyXOR2/XORInst_9_3/U1 XOR2_X1         NangateOpenCellLibrary 1.596000
+FSMMUX/MUXInst_0/U1       OR2_X1          NangateOpenCellLibrary 1.064000
+FSMMUX/MUXInst_1/U1       INV_X1          NangateOpenCellLibrary 0.532000
+FSMMUX/MUXInst_1/U2       NOR2_X1         NangateOpenCellLibrary 0.798000
+FSMMUX/MUXInst_2/U1       INV_X1          NangateOpenCellLibrary 0.532000
+FSMMUX/MUXInst_2/U2       NOR2_X1         NangateOpenCellLibrary 0.798000
+FSMMUX/MUXInst_3/U1       OR2_X1          NangateOpenCellLibrary 1.064000
+FSMMUX/MUXInst_4/U1       INV_X1          NangateOpenCellLibrary 0.532000
+FSMMUX/MUXInst_4/U2       NOR2_X1         NangateOpenCellLibrary 0.798000
+FSMMUX/MUXInst_5/U1       INV_X1          NangateOpenCellLibrary 0.532000
+FSMMUX/MUXInst_5/U2       NOR2_X1         NangateOpenCellLibrary 0.798000
+FSMMUX/MUXInst_6/U1       INV_X1          NangateOpenCellLibrary 0.532000
+FSMMUX/MUXInst_6/U2       NOR2_X1         NangateOpenCellLibrary 0.798000
+FSMRegInst/s_current_state_reg[0] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMRegInst/s_current_state_reg[1] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMRegInst/s_current_state_reg[2] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMRegInst/s_current_state_reg[3] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMRegInst/s_current_state_reg[4] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMRegInst/s_current_state_reg[5] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMRegInst/s_current_state_reg[6] DFF_X1  NangateOpenCellLibrary 4.522000 n
+FSMSignalsInst/U1         NOR4_X1         NangateOpenCellLibrary 1.330000
+FSMSignalsInst/U2         AND4_X1         NangateOpenCellLibrary 1.596000
+FSMUpdateInst/U1          XOR2_X1         NangateOpenCellLibrary 1.596000
+FSMUpdateInst/U2          XOR2_X1         NangateOpenCellLibrary 1.596000
+InputMUX/MUXInst_0/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_1/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_2/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_3/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_4/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_5/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_6/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_7/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_8/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_9/U1     MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_10/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_11/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_12/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_13/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_14/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_15/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_16/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_17/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_18/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_19/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_20/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_21/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_22/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_23/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_24/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_25/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_26/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_27/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_28/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_29/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_30/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_31/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_32/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_33/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_34/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_35/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_36/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_37/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_38/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_39/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_40/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_41/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_42/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_43/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_44/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_45/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_46/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_47/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_48/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_49/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_50/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_51/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_52/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_53/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_54/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_55/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_56/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_57/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_58/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_59/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_60/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_61/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_62/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+InputMUX/MUXInst_63/U1    MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_0/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_1/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_2/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_3/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_4/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_5/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_6/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_7/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_8/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_9/U1       MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_10/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_11/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_12/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_13/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_14/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_15/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_16/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_17/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_18/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_19/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_20/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_21/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_22/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_23/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_24/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_25/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_26/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_27/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_28/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_29/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_30/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_31/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_32/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_33/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_34/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_35/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_36/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_37/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_38/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_39/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_40/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_41/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_42/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_43/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_44/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_45/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_46/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_47/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_48/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_49/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_50/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_51/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_52/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_53/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_54/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_55/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_56/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_57/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_58/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_59/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_60/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_61/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_62/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/MUXInst_63/U1      MUX2_X1         NangateOpenCellLibrary 1.862000
+KeyMUX/U1                 BUF_X1          NangateOpenCellLibrary 0.798000
+KeyMUX/U2                 BUF_X1          NangateOpenCellLibrary 0.798000
+KeyMUX/U3                 BUF_X1          NangateOpenCellLibrary 0.798000
+MCInst/XOR_r0_Inst_0/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_0/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_1/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_1/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_2/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_2/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_3/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_3/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_4/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_4/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_5/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_5/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_6/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_6/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_7/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_7/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_8/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_8/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_9/U1   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_9/U2   XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_10/U1  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_10/U2  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_11/U1  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_11/U2  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_12/U1  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_12/U2  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_13/U1  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_13/U2  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_14/U1  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_14/U2  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_15/U1  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r0_Inst_15/U2  XNOR2_X1        NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_0/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_1/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_2/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_3/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_4/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_5/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_6/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_7/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_8/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_9/U1   XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_10/U1  XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_11/U1  XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_12/U1  XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_13/U1  XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_14/U1  XOR2_X1         NangateOpenCellLibrary 1.596000
+MCInst/XOR_r1_Inst_15/U1  XOR2_X1         NangateOpenCellLibrary 1.596000
+StateReg/s_current_state_reg[0] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[1] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[2] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[3] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[4] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[5] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[6] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[7] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[8] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[9] DFF_X1    NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[10] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[11] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[12] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[13] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[14] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[15] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[16] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[17] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[18] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[19] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[20] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[21] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[22] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[23] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[24] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[25] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[26] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[27] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[28] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[29] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[30] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[31] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[32] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[33] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[34] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[35] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[36] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[37] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[38] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[39] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[40] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[41] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[42] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[43] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[44] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[45] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[46] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[47] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[48] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[49] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[50] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[51] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[52] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[53] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[54] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[55] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[56] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[57] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[58] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[59] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[60] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[61] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[62] DFF_X1   NangateOpenCellLibrary 4.522000 n
+StateReg/s_current_state_reg[63] DFF_X1   NangateOpenCellLibrary 4.522000 n
+SubCellInst/LFInst_0/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_0/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_0/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_0/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_0/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_0/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_0/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_0/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_0/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_0/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_0/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_1/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_1/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_1/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_1/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_1/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_1/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_1/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_1/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_1/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_1/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_1/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_2/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_2/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_2/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_2/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_2/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_2/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_2/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_2/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_2/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_2/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_2/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_3/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_3/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_3/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_3/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_3/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_3/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_3/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_3/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_3/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_3/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_3/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_4/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_4/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_4/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_4/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_4/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_4/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_4/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_4/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_4/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_4/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_4/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_5/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_5/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_5/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_5/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_5/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_5/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_5/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_5/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_5/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_5/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_5/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_6/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_6/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_6/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_6/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_6/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_6/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_6/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_6/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_6/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_6/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_6/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_7/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_7/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_7/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_7/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_7/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_7/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_7/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_7/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_7/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_7/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_7/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_8/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_8/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_8/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_8/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_8/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_8/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_8/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_8/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_8/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_8/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_8/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_9/U1   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_9/U2   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_9/U3   AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_9/U4   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_9/U5   INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_9/U6   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_9/U7   OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_9/U8   AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_9/U9   OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_9/U10  NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_9/U11  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_10/U1  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_10/U2  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_10/U3  AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_10/U4  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_10/U5  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_10/U6  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_10/U7  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_10/U8  AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_10/U9  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_10/U10 NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_10/U11 OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_11/U1  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_11/U2  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_11/U3  AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_11/U4  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_11/U5  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_11/U6  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_11/U7  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_11/U8  AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_11/U9  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_11/U10 NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_11/U11 OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_12/U1  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_12/U2  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_12/U3  AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_12/U4  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_12/U5  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_12/U6  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_12/U7  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_12/U8  AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_12/U9  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_12/U10 NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_12/U11 OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_13/U1  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_13/U2  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_13/U3  AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_13/U4  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_13/U5  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_13/U6  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_13/U7  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_13/U8  AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_13/U9  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_13/U10 NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_13/U11 OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_14/U1  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_14/U2  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_14/U3  AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_14/U4  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_14/U5  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_14/U6  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_14/U7  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_14/U8  AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_14/U9  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_14/U10 NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_14/U11 OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_15/U1  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_15/U2  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_15/U3  AOI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_15/U4  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_15/U5  INV_X1          NangateOpenCellLibrary 0.532000
+SubCellInst/LFInst_15/U6  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_15/U7  OAI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_15/U8  AOI21_X1        NangateOpenCellLibrary 1.064000
+SubCellInst/LFInst_15/U9  OAI22_X1        NangateOpenCellLibrary 1.330000
+SubCellInst/LFInst_15/U10 NOR2_X1         NangateOpenCellLibrary 0.798000
+SubCellInst/LFInst_15/U11 OAI22_X1        NangateOpenCellLibrary 1.330000
+selectsMUX/MUXInst_0/U1   MUX2_X1         NangateOpenCellLibrary 1.862000
+selectsRegInst/s_current_state_reg[0] DFF_X1 NangateOpenCellLibrary 4.522000 n
+selectsUpdateInst/U1      INV_X1          NangateOpenCellLibrary 0.532000
+--------------------------------------------------------------------------------
+Total 516 cells                                           943.767984
+1

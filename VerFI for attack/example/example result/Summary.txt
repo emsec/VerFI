@@ -1,0 +1,5 @@
+0000:00 Total: 2047  Ineffective: 895  Detected: 0  Non-detected: 1152  RunTimeOver: 0
+0000:00 Total: 4095  Ineffective: 1717  Detected: 0  Non-detected: 2378  RunTimeOver: 0
+0000:01 Total: 6143  Ineffective: 2529  Detected: 0  Non-detected: 3614  RunTimeOver: 0
+0000:01 Total: 8191  Ineffective: 3394  Detected: 0  Non-detected: 4799  RunTimeOver: 0
+0000:02 Total: 10000  Ineffective: 4128  Detected: 0  Non-detected: 5872  RunTimeOver: 0
