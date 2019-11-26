@@ -19,7 +19,7 @@ You find two folders in the repository:
 The paper is published by IEEE International Symposium on Hardware Oriented Security and Trust, HOST 2020.
 Please use the following citation, if you use our implementations in your research:
 
-Victor Arribas and Felix Wegener and Amir Moradi and Svetla Nikova: Cryptographic Fault Diagnosis using VerFI. HOST 2020.
+Victor Arribas, Felix Wegener, Amir Moradi, Svetla Nikova: Cryptographic Fault Diagnosis using VerFI. HOST 2020.
 
 The pre-print version of the paper is available here:
 https://eprint.iacr.org/2019/1312
