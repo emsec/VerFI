@@ -1,4 +1,4 @@
-# VerFI ver 2 Beta
+# VerFI ver 2 beta
 
 This repository contains the source code for the program written for the project "Cryptographic Fault Diagnosis using VerFI"
 
