@@ -35,4 +35,4 @@ The following facts should be considered:
   - simulation file: it defined all simulation settings.
     See the example folder. There is a sim.txt file with inline comments explaining all parameters which need to be set.
     
-    
+- Note that the tool thinks that an injected fault is detected if the output is fully zero. 

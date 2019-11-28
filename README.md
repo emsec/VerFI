@@ -15,6 +15,7 @@ You find two folders in the repository:
  The tool provides a summary of the diagnosis and can generate detailed list of the diagnosis, e.g., 
  for which kind of fault, in which clock cycle, and which cells the result is "faulty"/"fault is detected"/"fault is ineffective".
  
+Note that the tool thinks that an injected fault is detected if the output is fully zero. 
 
 The paper is published by IEEE International Symposium on Hardware Oriented Security and Trust, HOST 2020.
 Please use the following citation, if you use our implementations in your research:
