@@ -8,10 +8,10 @@ This repository is the second version of the program which supports not all feat
 The progarm is written in Ruhr University Bochum, Embedded Security (Germany)
 
 You find two folders in the repository: 
- * "VerFI for attack": it can be used to emulate fault-injection attacks. It generates input/outputs for which the injected fault was 
+ * "VerFI_for_attack": it can be used to emulate fault-injection attacks. It generates input/outputs for which the injected fault was 
  "detected"/"ineffectice"/"non-detected". The generated result can be used to mount an attack like DFA/SIFA.
 
-* "VerFI for diagnosis": it can be used to exmaine a design in detection/correction of the faults. 
+* "VerFI_for_diagnosis": it can be used to exmaine a design in detection/correction of the faults. 
  The tool provides a summary of the diagnosis and can generate detailed list of the diagnosis, e.g., 
  for which kind of fault, in which clock cycle, and which cells the result is "faulty"/"fault is detected"/"fault is ineffective".
  
