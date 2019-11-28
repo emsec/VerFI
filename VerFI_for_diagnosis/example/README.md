@@ -30,7 +30,7 @@ min_no_faults_per_run     % minumum number of injected faults per run (encryptio
 max_no_faults_per_cycle   % maximum number of injected faults per clock cycle
 2
 
-min_no_faults_per_cycle   % minumum number of injected faults per clock cycle
+min_no_faults_per_cycle   % minimum number of injected faults per clock cycle
 2
 
 
