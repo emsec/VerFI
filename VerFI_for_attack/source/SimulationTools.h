@@ -2,7 +2,7 @@
 // COMPANY:		Ruhr University Bochum, Embedded Security
 // AUTHOR:		Amir Moradi (for the paper: https://eprint.iacr.org/2019/1312 )
 //////////////////////////////////////////////////////////////////////////////////
-// Copyright (c) 2019, Amir Moradi 
+// Copyright (c) 2019, Amir Moradi
 // All rights reserved.
 //
 // BSD-3-Clause License
@@ -16,7 +16,7 @@
 //     * Neither the name of the copyright holder, their organization nor the
 //       names of its contributors may be used to endorse or promote products
 //       derived from this software without specific prior written permission.
-// 
+//
 // THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 // ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 // WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -333,7 +333,6 @@ int RunFaultInjection(int Max_no_of_Threads, SignalStruct** Signals, int NumberO
 	int  NumberOfFaultsInCycle;
 	int  SelectedNumberOfInjectedFaults;
 	char *Seeded;
-	char abort;
 	int	 MaxTargetClockCycle;
 	int  MinTargetClockCycle;
 	clock_t begin;
@@ -410,154 +409,131 @@ int RunFaultInjection(int Max_no_of_Threads, SignalStruct** Signals, int NumberO
 	RangeNumberOfFaultsPerRun = MaxNumberOfFaultsPerRun - MinNumberOfFaultsPerRun + 1;
 	SimulationCounter = 0;
 	SummaryFile = fopen(SummaryFileName, "wt");
-	abort = 0;
 	begin = clock();
 
 	#pragma omp parallel for schedule(guided) private(ThreadIndex, ClockCycleIndex, ClockCycle, ClockCycleFaultFree, ClockCycleFaulty, i, j, k, LocalIndex, InputIndex, OutputIndex, SelectedNumberOfInjectedFaults, NumberOfInjectedFaults, NumberOfFaultsInCycle, TotalDetected, TotalNondetected, TotalIneffective, TotalRunTimeOver)
 	for (SimulationIndex = 0;SimulationIndex < NumberOfSimulations; SimulationIndex++)
 	{
-		if (!abort)
+		ThreadIndex = omp_get_thread_num();
+		if (!Seeded[ThreadIndex])
 		{
-			if (_kbhit())
-			{
-				#pragma omp critical
-				{
-					if ((!abort) & _kbhit())
-					{
-						char ch = _getch();
-						if (ch == 'q')
-						{
-							printf("abort\n");
-							abort++;
-						}
-					}
-				}
-			}
-
-			ThreadIndex = omp_get_thread_num();
-			if (!Seeded[ThreadIndex])
-			{
-				srand(int(time(NULL)) ^ ThreadIndex);
-				Seeded[ThreadIndex] = 1;
-			}
-
-			SimulationResults[SimulationIndex].TaregtCells = (int *)malloc(MaxNumberOfFaultsPerRun * sizeof(int));
-			SimulationResults[SimulationIndex].TaregtClockCycles = (int *)malloc(MaxNumberOfFaultsPerRun * sizeof(int));
-
-			NumberOfInjectedFaults = 0;
-			SelectedNumberOfInjectedFaults = MinNumberOfFaultsPerRun + (rand() % RangeNumberOfFaultsPerRun);
-
-			while (NumberOfInjectedFaults < SelectedNumberOfInjectedFaults)
-			{
-				do {
-					ClockCycleIndex = rand() % NumberOfTargetClockCycles;
-					ClockCycle = TargetClockCycles[ClockCycleIndex];
-
-					for (j = 0;j < NumberOfInjectedFaults;j++)
-						if (SimulationResults[SimulationIndex].TaregtClockCycles[j] == ClockCycle)
-							break;
-				} while (j < NumberOfInjectedFaults);
-
-				NumberOfFaultsInCycle = MinNumberOfFaultsPerCycle + (rand() % RangeNumberOfFaultsPerCycle);
-
-				for (i = 0;(i < NumberOfFaultsInCycle) & (NumberOfInjectedFaults < MaxNumberOfFaultsPerRun);i++)
-				{
-					SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults] = rand() % NumberOfCells;
-
-					if (Cells[SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults]]->FaultAllowed)
-					{
-						SimulationResults[SimulationIndex].TaregtClockCycles[NumberOfInjectedFaults] = ClockCycle;
-
-						for (j = 0;j < i;j++)
-							if (SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults] ==
-								SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults - j - 1])
-								break;
-
-						if (j < i)
-							i--;
-						else
-							NumberOfInjectedFaults++;
-					}
-					else
-						i--;
-				}
-			}
-
-			SimulationResults[SimulationIndex].Valid = 1;
-			SimulationResults[SimulationIndex].NumberOfInjectedFaults = NumberOfInjectedFaults;
-
-			for (InputIndex = 0;InputIndex < NumberOfRandomInputs;InputIndex++)
-				SignalValues[ThreadIndex][RandomInputs[InputIndex]] = rand() & 1;
-
-			ClockCycleFaultFree = RunSimulation(Signals, ClockSignal, Max_No_ClockCycles,
-				InitialSim_NumberOfClockCycles, InitialSim_NumberOfInputs,
-				InitialSim_Inputs, InitialSim_Values,
-				Cells, Regs, NumberOfRegs,
-				MaxDepth, CellsInDepth, NumberOfCellsInDepth, CellTypes,
-				EndSimCondition_Signals, EndSimCondition_Values,
-				EndSimCondition_NumberOfSignals, EndSim_NumberOfWaitCycles,
-				SignalValues[ThreadIndex], RegValues[ThreadIndex], Faults[ThreadIndex]);
-
-			for (BlockIndex = 0;BlockIndex < EndSim_NumberOfOutputBlocks;BlockIndex++)
-				for (OutputIndex = 0;OutputIndex < EndSim_NumberOfOutputsInBlock[BlockIndex];OutputIndex++)
-					FaultFreeOutputValues[ThreadIndex][BlockIndex][OutputIndex] = SignalValues[ThreadIndex][EndSim_OutputsInBlock[BlockIndex][OutputIndex]];
-
-			for (i = 0;i < NumberOfInjectedFaults;i++)
-				Faults[ThreadIndex][FaultInjectionType][SimulationResults[SimulationIndex].TaregtClockCycles[i]][SimulationResults[SimulationIndex].TaregtCells[i]] = 1;
-
-			ClockCycleFaulty = RunSimulation(Signals, ClockSignal, Max_No_ClockCycles,
-				InitialSim_NumberOfClockCycles, InitialSim_NumberOfInputs,
-				InitialSim_Inputs, InitialSim_Values,
-				Cells, Regs, NumberOfRegs,
-				MaxDepth, CellsInDepth, NumberOfCellsInDepth, CellTypes,
-				EndSimCondition_Signals, EndSimCondition_Values,
-				EndSimCondition_NumberOfSignals, EndSim_NumberOfWaitCycles,
-				SignalValues[ThreadIndex], RegValues[ThreadIndex], Faults[ThreadIndex]);
-
-			CheckResults(ClockCycleFaultFree, ClockCycleFaulty, Max_No_ClockCycles,
-				EndSim_OutputNames, EndSim_Outputs_IndexL, EndSim_Outputs_IndexH,
-				EndSim_Outputs_Base, EndSim_NumberOfOutputBlocks,
-				EndSim_OutputsInBlock, EndSim_NumberOfOutputsInBlock,
-				Signals, NumberOfSignals, FaultFreeOutputValues[ThreadIndex],
-				SignalValues[ThreadIndex], SimulationResults[SimulationIndex],
-				NumberOfRandomInputs, RandomInputs, IneffectiveCounter[ThreadIndex],
-				NondetectedCounter[ThreadIndex], DetectedCounter[ThreadIndex],
-				RunTimeOverCounter[ThreadIndex]);
-
-			for (i = 0;i < NumberOfInjectedFaults;i++)
-				Faults[ThreadIndex][FaultInjectionType][SimulationResults[SimulationIndex].TaregtClockCycles[i]][SimulationResults[SimulationIndex].TaregtCells[i]] = 0;
-
-#pragma omp atomic
-			SimulationCounter++;
-
-			if ((SimulationCounter & 0x7ff) == 0x7ff)
-			{
-				TotalDetected = 0;
-				TotalNondetected = 0;
-				TotalIneffective = 0;
-				TotalRunTimeOver = 0;
-
-				for (i = 0; i < Max_no_of_Threads; i++)
-				{
-					TotalDetected += DetectedCounter[i];
-					TotalNondetected += NondetectedCounter[i];
-					TotalIneffective += IneffectiveCounter[i];
-					TotalRunTimeOver += RunTimeOverCounter[i];
-				}
-
-				int    elapsed_secs = int(double(clock() - begin) / CLOCKS_PER_SEC);
-				char   Str1[200];
-
-				sprintf(Str1, "%04d:%02d Total: %d  Ineffective: %d  Detected: %d  Non-detected: %d  RunTimeOver: %d\n", elapsed_secs / 60, elapsed_secs % 60,
-					SimulationCounter, TotalIneffective, TotalDetected, TotalNondetected, TotalRunTimeOver);
-
-				printf(Str1);
-				fprintf(SummaryFile, Str1);
-			}
-
+			srand(int(time(NULL)) ^ ThreadIndex);
+			Seeded[ThreadIndex] = 1;
 		}
-		else
-			SimulationResults[SimulationIndex].Valid = 0;
+
+		SimulationResults[SimulationIndex].TaregtCells = (int *)malloc(MaxNumberOfFaultsPerRun * sizeof(int));
+		SimulationResults[SimulationIndex].TaregtClockCycles = (int *)malloc(MaxNumberOfFaultsPerRun * sizeof(int));
+
+		NumberOfInjectedFaults = 0;
+		SelectedNumberOfInjectedFaults = MinNumberOfFaultsPerRun + (rand() % RangeNumberOfFaultsPerRun);
+
+		while (NumberOfInjectedFaults < SelectedNumberOfInjectedFaults)
+		{
+			do {
+				ClockCycleIndex = rand() % NumberOfTargetClockCycles;
+				ClockCycle = TargetClockCycles[ClockCycleIndex];
+
+				for (j = 0;j < NumberOfInjectedFaults;j++)
+					if (SimulationResults[SimulationIndex].TaregtClockCycles[j] == ClockCycle)
+						break;
+			} while (j < NumberOfInjectedFaults);
+
+			NumberOfFaultsInCycle = MinNumberOfFaultsPerCycle + (rand() % RangeNumberOfFaultsPerCycle);
+
+			for (i = 0;(i < NumberOfFaultsInCycle) & (NumberOfInjectedFaults < MaxNumberOfFaultsPerRun);i++)
+			{
+				SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults] = rand() % NumberOfCells;
+
+				if (Cells[SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults]]->FaultAllowed)
+				{
+					SimulationResults[SimulationIndex].TaregtClockCycles[NumberOfInjectedFaults] = ClockCycle;
+
+					for (j = 0;j < i;j++)
+						if (SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults] ==
+							SimulationResults[SimulationIndex].TaregtCells[NumberOfInjectedFaults - j - 1])
+							break;
+
+					if (j < i)
+						i--;
+					else
+						NumberOfInjectedFaults++;
+				}
+				else
+					i--;
+			}
+		}
+
+		SimulationResults[SimulationIndex].Valid = 1;
+		SimulationResults[SimulationIndex].NumberOfInjectedFaults = NumberOfInjectedFaults;
+
+		for (InputIndex = 0;InputIndex < NumberOfRandomInputs;InputIndex++)
+			SignalValues[ThreadIndex][RandomInputs[InputIndex]] = rand() & 1;
+
+		ClockCycleFaultFree = RunSimulation(Signals, ClockSignal, Max_No_ClockCycles,
+			InitialSim_NumberOfClockCycles, InitialSim_NumberOfInputs,
+			InitialSim_Inputs, InitialSim_Values,
+			Cells, Regs, NumberOfRegs,
+			MaxDepth, CellsInDepth, NumberOfCellsInDepth, CellTypes,
+			EndSimCondition_Signals, EndSimCondition_Values,
+			EndSimCondition_NumberOfSignals, EndSim_NumberOfWaitCycles,
+			SignalValues[ThreadIndex], RegValues[ThreadIndex], Faults[ThreadIndex]);
+
+		for (BlockIndex = 0;BlockIndex < EndSim_NumberOfOutputBlocks;BlockIndex++)
+			for (OutputIndex = 0;OutputIndex < EndSim_NumberOfOutputsInBlock[BlockIndex];OutputIndex++)
+				FaultFreeOutputValues[ThreadIndex][BlockIndex][OutputIndex] = SignalValues[ThreadIndex][EndSim_OutputsInBlock[BlockIndex][OutputIndex]];
+
+		for (i = 0;i < NumberOfInjectedFaults;i++)
+			Faults[ThreadIndex][FaultInjectionType][SimulationResults[SimulationIndex].TaregtClockCycles[i]][SimulationResults[SimulationIndex].TaregtCells[i]] = 1;
+
+		ClockCycleFaulty = RunSimulation(Signals, ClockSignal, Max_No_ClockCycles,
+			InitialSim_NumberOfClockCycles, InitialSim_NumberOfInputs,
+			InitialSim_Inputs, InitialSim_Values,
+			Cells, Regs, NumberOfRegs,
+			MaxDepth, CellsInDepth, NumberOfCellsInDepth, CellTypes,
+			EndSimCondition_Signals, EndSimCondition_Values,
+			EndSimCondition_NumberOfSignals, EndSim_NumberOfWaitCycles,
+			SignalValues[ThreadIndex], RegValues[ThreadIndex], Faults[ThreadIndex]);
+
+		CheckResults(ClockCycleFaultFree, ClockCycleFaulty, Max_No_ClockCycles,
+			EndSim_OutputNames, EndSim_Outputs_IndexL, EndSim_Outputs_IndexH,
+			EndSim_Outputs_Base, EndSim_NumberOfOutputBlocks,
+			EndSim_OutputsInBlock, EndSim_NumberOfOutputsInBlock,
+			Signals, NumberOfSignals, FaultFreeOutputValues[ThreadIndex],
+			SignalValues[ThreadIndex], SimulationResults[SimulationIndex],
+			NumberOfRandomInputs, RandomInputs, IneffectiveCounter[ThreadIndex],
+			NondetectedCounter[ThreadIndex], DetectedCounter[ThreadIndex],
+			RunTimeOverCounter[ThreadIndex]);
+
+		for (i = 0;i < NumberOfInjectedFaults;i++)
+			Faults[ThreadIndex][FaultInjectionType][SimulationResults[SimulationIndex].TaregtClockCycles[i]][SimulationResults[SimulationIndex].TaregtCells[i]] = 0;
+
+		#pragma omp atomic
+		SimulationCounter++;
+
+		if ((SimulationCounter & 0x7ff) == 0x7ff)
+		{
+			TotalDetected = 0;
+			TotalNondetected = 0;
+			TotalIneffective = 0;
+			TotalRunTimeOver = 0;
+
+			for (i = 0; i < Max_no_of_Threads; i++)
+			{
+				TotalDetected += DetectedCounter[i];
+				TotalNondetected += NondetectedCounter[i];
+				TotalIneffective += IneffectiveCounter[i];
+				TotalRunTimeOver += RunTimeOverCounter[i];
+			}
+
+			int    elapsed_secs = int(double(clock() - begin) / CLOCKS_PER_SEC);
+			char   Str1[200];
+
+			sprintf(Str1, "%04d:%02d Total: %d  Ineffective: %d  Detected: %d  Non-detected: %d  RunTimeOver: %d\n", elapsed_secs / 60, elapsed_secs % 60,
+				SimulationCounter, TotalIneffective, TotalDetected, TotalNondetected, TotalRunTimeOver);
+
+			printf(Str1);
+			fprintf(SummaryFile, Str1);
+		}
 	}
 
 	TotalDetected = 0;
