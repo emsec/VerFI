@@ -280,11 +280,6 @@ int RunFaultInjection(int Max_no_of_Threads, SignalStruct** Signals, int NumberO
 	abort = 0;
 	begin = clock();
 
-	for (i = 0;i < NumberOfSignals;i++)
-		if (!strcmp(Signals[i]->Name, "Error_0_"))
-			i = i;
-
-
 	#pragma omp parallel for schedule(guided) private(ThreadIndex, ClockCycleIndex, ClockCycle, i, j, k, LocalIndex, SelectedNumberOfInjectedFaults, NumberOfInjectedFaults, NumberOfFaultsInCycle, ValidSimulation, TotalDetected, TotalNondetected, TotalIneffective, TotalRunTimeOver)
 	for (SimulationIndex = 0;SimulationIndex < NumberOfSimulations; SimulationIndex++)
 	{
