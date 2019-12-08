@@ -673,10 +673,10 @@ int ReadSimulationFile(SignalStruct** Signals, int NumberOfSignals, char* InputS
 			Print_Ineffective = atoi(Str1);
 			SimulationFileCheckList |= (1 << 19);
 		}
-		else if (!strcmp(Str1, "print_runtimeerror"))
+		else if (!strcmp(Str1, "print_runtime_over"))
 		{
 			ReadNonCommentFromFile(SimulationFile, Str1, "%");
-			Print_Ineffective = atoi(Str1);
+			Print_RunTimeOver = atoi(Str1);
 			SimulationFileCheckList |= (1 << 20);
 		}
 		else if (!strcmp(Str1, "max_no_of_threads"))
