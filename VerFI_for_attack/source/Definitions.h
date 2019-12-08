@@ -133,7 +133,7 @@ void ReadNonCommentFromFile(FILE* FileHeader, char* Str, const char* CommentSynt
 		if (!memcmp(CommentSyntax, Str, l))
 		{
 			do ch = fgetc(FileHeader);
-			while (ch != '\n');
+			while ((ch != '\n') & (!feof(FileHeader)));
 		}
 	} while (!memcmp(CommentSyntax, Str, l));
 }
