@@ -341,10 +341,9 @@ int RunFaultInjection(int Max_no_of_Threads, SignalStruct** Signals, int NumberO
 	else  // FaultInjection_Random
 		NumberOfSimulations = NumberOfSimulationsInFile;
 
-	if (NumberOfSimulations > 600000000L)
+	if ((NumberOfSimulations > 600000000L) | (NumberOfSimulations < 0))
 	{
 		printf("Number of simulations %d is over the threshold", NumberOfSimulations);
-		_getch();
 		return 1;
 	}
 	else
