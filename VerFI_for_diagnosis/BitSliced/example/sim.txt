@@ -1,0 +1,84 @@
+max_no_of_threads   % maximum number of threads *for parallel operation*
+30
+
+clock    % name of the clock signal
+clk
+
+max_clock_cycle   % maximum number of clock cycles per run before checking the done condition
+40
+
+no_of_inputs   % number of primary inputs
+3
+
+no_of_initial_clock_cycles   % number of clock cycles to initiate the run (start of encryption)
+2
+
+[63:0]  Input  64'h0123456789ABCDEF
+[127:0] Key   128'h18F4EEBDFCED7841D9E0E38CFE6A9405
+        rst   1'b1
+       
+[63:0]  Input  64'h0123456789ABCDEF
+[127:0] Key   128'h18F4EEBDFCED7841D9E0E38CFE6A9405
+        rst   1'b0
+
+end_condition   % the condition to check to terminate the run (e.g., done signal is high)
+done 1'b1
+
+end_wait_cycles   % number of clock cycles to wait after the end_condition 
+1
+
+no_of_outputs     % number of primary outputs and the way it should be printed 64'h (64-bit hex), 2'b (2-bit binary)
+1
+[63:0] Output 64'h
+
+faul_injection_include   % those modules which should be included for fault injectsion (all : to include them all, 0 : to include none) (# : followed by # module names from hierarchy "cell_report_file")
+all
+
+faul_injection_exclude   % those modules which should be exclused for fault injectsion (all : to exclude them all, 0 : to exclude none) (# : followed by # module names from hierarchy "cell_report_file")
+2
+FSMSignals_doneInst
+OutputReg
+
+fault_injection_type    % type of fault injection: stuck_at_0  stuck_at_1  toggle
+toggle
+
+fault_injection_method  % type of fault injection:  random  exhaustive
+exhaustive
+
+number_of_random_fault_injections  % number of simulations for each a fault is injected (this number is relevant only for fault_injection_method=random)
+1
+
+number_of_target_clock_cycles  % number of clock cycles to inject the faults followed by the targeted clock cycles
+2                              % two target clock cycles
+10                             % clock cycle 10 is targeted
+11                             % clock cycle 11 is targeted
+
+
+max_no_faults_per_run     % maximum number of injected faults per run (encryption)
+2
+
+min_no_faults_per_run     % minumum number of injected faults per run (encryption)
+2
+
+max_no_faults_per_cycle   % maximum number of injected faults per clock cycle
+2
+
+min_no_faults_per_cycle   % minumum number of injected faults per clock cycle
+1
+
+
+print_nondetected   % whether the detailed result of non-detected faults should be printed 1/0 
+1
+
+print_detected      % whether the detailed result of detected faults should be printed 1/0 
+0
+
+print_ineffective   % whether the detailed result of ineffective faults should be printed 1/0 
+0
+
+print_runtime_over  % whether the detailed result of faults led to run-time-over should be printed 1/0 
+0
+
+% have fun!
+
+%output should be 614D03B82A8A2817
